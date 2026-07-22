@@ -1,0 +1,12 @@
+pandas
+sqlalchemy
+pyodbc
+playwright
+beautifulsoup4
+lxml
+python-dotenv
+rich
+requests
+pytest
+black
+ruff

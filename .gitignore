@@ -1,0 +1,50 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Variáveis de ambiente
+.env
+
+# PyCharm
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+logs/
+*.log
+
+# Banco de dados local (caso use SQLite em testes)
+*.db
+
+# Arquivos temporários
+*.tmp
+*.bak
+
+# Dados gerados pelo projeto
+data/raw/*
+data/processed/*
+data/exports/*
+
+# Manter a estrutura das pastas
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/exports/.gitkeep
+
+# Arquivos gerados
+*.pdf
+*.docx
+*.xlsx
+*.csv
+
+# Cache de testes
+.pytest_cache/
+
+# Ferramentas
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
